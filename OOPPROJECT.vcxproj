@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8B613629-D991-4636-AD91-6B292C4A334B}</ProjectGuid>
+    <RootNamespace>OOPPROJECT</RootNamespace>
+    <ProjectName>OOPPROJECT</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="OOPPROJECT.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="accountantmenu.dat" />
+    <None Include="accountantPassword.dat" />
+    <None Include="adminmenu.dat" />
+    <None Include="admissionmenu.dat" />
+    <None Include="BEE11-B_course.dat" />
+    <None Include="BEE13-B_course.dat" />
+    <None Include="BEE12-B_course.dat" />
+    <None Include="book.dat" />
+    <None Include="BusExpense.dat" />
+    <None Include="busmenu.dat" />
+    <None Include="calculate_expenses.dat" />
+    <None Include="coordinatormenu.dat" />
+    <None Include="exit.dat" />
+    <None Include="goodbye.dat" />
+    <None Include="grade.dat" />
+    <None Include="IssueBooks.dat" />
+    <None Include="mainmenu.dat" />
+    <None Include="return.dat" />
+    <None Include="Sadmin_email.dat" />
+    <None Include="Steacher_email.dat" />
+    <None Include="student.dat" />
+    <None Include="StudentAttendence.dat" />
+    <None Include="StudentFee.dat" />
+    <None Include="studentmenu.dat" />
+    <None Include="StudentPassword.dat" />
+    <None Include="StudentResult.dat" />
+    <None Include="Student_emailResponse.dat" />
+    <None Include="teacher.dat" />
+    <None Include="TeacherAttendence.dat" />
+    <None Include="teachermenu.dat" />
+    <None Include="TeacherPassword.dat" />
+    <None Include="TeacherSalary.dat" />
+    <None Include="temp.dat" />
+    <None Include="TimeTable.dat" />
+    <None Include="TimeTableTeacher.dat" />
+    <None Include="TotalExpenditure.dat" />
+    <None Include="TotalRevenue.dat" />
+    <None Include="TotalStudentFee.dat" />
+    <None Include="transport.dat" />
+    <None Include="TransportPassword.dat" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
